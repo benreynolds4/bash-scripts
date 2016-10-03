@@ -9,3 +9,6 @@ for ext in $exts
  	mkdir $ext
  	mv -v *.$ext $ext/
  done
+
+cd ../Documents/bash
+/usr/bin/osascript notify.scpt
